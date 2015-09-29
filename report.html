@@ -41,64 +41,58 @@ limitations under the License.
 
   <body role="document">
 
-    <!-- Fixed navbar -->
+
+    <!-- Fixed navbar TODO text color of menu items and home background color (orange)-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container" style="background-color:Teal">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"  style="border:none">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <img src="lib/images/canada-2017-small-logo.png" alt="Trans-Canada Trail logo"> -->
-          <a class="navbar-brand" href="#">Trans-Canada Trail Explorer </a>
+          <a class="navbar-brand" href="index.html"  style="color:white"><b>Trans-Canada Trail Explorer</b> </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active" style="background-color:gray"><a href="index.html" 
+            style="background-color:gray">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
               Your Canadian Journey<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="plan.html">Plan trip</a></li>
-                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="discover.html" style="color:white">Discover</a></li>
+                <li><a href="plan.html" style="color:white">Plan trip</a></li>
+                <li><a href="favourites.html" style="color:white">Favourites</a></li>
+                <li><a href="achievements.html" style="color:white">Achievements<span class="badge">2</span></a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
               Be a Trail Blazer<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="events.html">Join Events <span class="badge">42</span></a></li>
-                <li><a href="news.html">Get Trail News <span class="badge">20</span></a></li>
-                <li><a href="report.html">Report an issue</a></li>
-                <li><a href="contribute.html">Contribute</a></li>
+                <li><a href="events.html" style="color:white">Events<span class="badge">42</span></a></li>
+                <li><a href="alerts.html" style="color:white">Alerts<span class="badge">2</span></a></li>
+                <li><a href="contribute.html" style="color:white">Contribute</a></li>
               </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-  
+
 
 <!-- TITLE -->
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div>
-        <h2>Report a trail issue</h2>
-      </div>
-
+       <div class="row">
+          <div class="col-xs-3"></div>
+           <div class="col-xs-6"><h3>Enter an Alert</h3></div>
+          <div class="col-xs-3"></div>      
+        </div>
 
 <!-- FORM-->
     <form role="form">
       <div class="col-lg-6">
-        <div class="input-group">
-          <span class="input-group-addon">
-            <input type="checkbox" aria-label="...">
-          </span>
-          <input type="text" class="form-control" aria-label="..." placeholder="Search for...">
-        </div><!-- /input-group -->
         <h3><span class="label label-info center-block">Select location on the map</span></h3>        
         <div class="col-lg-4">
             <img src="lib/images/trail-gatineau-2.png" class="img-responsive center-block" 
