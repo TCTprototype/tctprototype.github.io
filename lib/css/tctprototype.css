@@ -1,0 +1,59 @@
+/* TCT prototype stylesheet */
+
+/* style="color:green;" */
+
+/*
+body {
+  background-color: blue;
+  background-color:#4CCDCB;
+  background-color:#C1DAD6;
+}
+*/
+
+body.tct-page {
+    background-color:#E9F2E9;
+}
+
+div.tct {
+
+    padding:0;
+}
+
+div.panel {
+    max-height:280px;
+}
+
+input.tct {
+    text-align:center;
+    background-color:#E4EFE4;
+}
+
+h3.tct {
+    text-align:center; 
+    color:#065555;
+}
+
+td.tct-desc {
+
+ font-size:90%;
+ 
+}
+
+p.tct-desc {
+
+ font-size:90%;
+ 
+}
+
+div #magnifier {
+    margin-left:-2em; 
+    margin-top:-3.5em;
+}
+
+
+div.splash {
+
+ background-color:#88BB88; 
+ min-height:300px;
+ 
+}

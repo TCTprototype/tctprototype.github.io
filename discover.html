@@ -24,7 +24,7 @@ limitations under the License.
     <meta name="author" content="">
     
     <!-- icon -->
-    <link rel="icon" href="lib/bootstrap/favicon.ico">
+    <link rel="icon" href="lib/images/favicon.ico">
 
     <title>Trans-Canada Demo App</title>
 
@@ -37,44 +37,50 @@ limitations under the License.
     <!--     <link href="lib/met/css/theme.css" rel="stylesheet"> -->
     <!--     <link href="lib/met/css/met.css" rel="stylesheet"> -->
 
+    <!-- TCT PROTOTYPE CSS -->
+    <link href="lib/css/tctprototype.css" rel="stylesheet">
+
   </head>
 
-  <body role="document">
+  <body role="document" class="tct-page">
 
-
-    <!-- Fixed navbar TODO text color of menu items and home background color (orange)-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container" style="background-color:Teal">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"  style="border:none">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"  style="color:white"><b>Trans-Canada Trail Explorer</b> </a>
+          <a class="navbar-brand" href="index.html">
+          <img class="col-xs-2 col-sm-2 col-md-2" src="lib/images/maple-leaf-small.svg">
+          Trans-Canada Trail Explorer</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active" style="background-color:gray"><a href="index.html" 
-            style="background-color:gray">Home</a></li>
+            <li class="active"><a href="index.html" >Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Your Canadian Journey<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="discover.html" style="color:white">Discover</a></li>
-                <li><a href="plan.html" style="color:white">Plan trip</a></li>
-                <li><a href="favourites.html" style="color:white">Favourites</a></li>
-                <li><a href="achievements.html" style="color:white">Achievements<span class="badge">2</span></a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="plan.html">Plan trip</a></li>
+                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="achievements.html">Achievements<span class="badge">2</span></a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Be a Trail Blazer<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="events.html" style="color:white">Events<span class="badge">42</span></a></li>
-                <li><a href="alerts.html" style="color:white">Alerts<span class="badge">2</span></a></li>
-                <li><a href="contribute.html" style="color:white">Contribute</a></li>
+                <li><a href="events.html">Events<span class="badge">42</span></a></li>
+                <li><a href="alerts.html">Alerts<span class="badge">2</span></a></li>
+                <li><a href="contribute.html">Contribute</a></li>
               </ul>
             </li>
           </ul>
@@ -84,10 +90,10 @@ limitations under the License.
 
 
 <!-- TITLE -->
-       <div class="row">
-          <div class="col-xs-3"></div>
-           <div class="col-xs-6"><h3>Featured Trails</h3></div>
-          <div class="col-xs-3"></div>      
+       <div class="row container tct"">
+          <div class="col-xs-3 col-sm-3 col-md-3"></div>
+           <div class="col-xs-6 col-sm-6 col-md-6"><h3 class="tct">Featured Trails</h3></div>
+          <div class="col-xs-3 col-sm-3 col-md-3"></div>      
         </div>
 
 <!-- SEARCH OPTIONS -->
@@ -97,7 +103,8 @@ limitations under the License.
   <div class="col-lg-6">
     <div class="input-group">
       <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search by<span class="caret"></span></button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" 
+        aria-haspopup="true" aria-expanded="false">&nbsp;Search by<span class="caret"></span></button>
         <ul class="dropdown-menu">
           <li><a href="#">Region</a></li>
           <li><a href="#">Province</a></li>
@@ -114,101 +121,62 @@ limitations under the License.
 <!-- INFO PANELS -->
 
       <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-warning" style="max-height:300px">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="panel panel-warning">
             <div class="panel-heading">
-              <h3 class="panel-title">Confederation Trail, Prince-Edward Island</h3>
-            </div>
+              <h3 class="panel-title">Confederation Trail, Prince-Edward Island 
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></h3>
+            </div> <!-- panel heading -->
             <div class="panel-body">
-                <div class="col-md-6">
                   <table class="table">
                       <tr>
-                        <td><img src="lib/images/pei-trail2.png"  width="175" height="175" alt="PEI" ></td>
-                        <td>With beautiful rolling hill scenery, quaint villages and broad bay seascapes, 
+                        <td><img src="lib/images/pei-trail2.png"  width="175" height="175" alt="PEI"><br/>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                             <img src="lib/images/share-text-icon.svg" alt="share" >
+                        </button>
+                        </td>
+                        <td class="tct-desc">With beautiful rolling hill scenery, quaint villages and 
+                        broad bay seascapes, 
                         the Confederation Trail is Prince Edward Island's portion of the Trans Canada Trail.
-                        <p>Maintained by <a href="http://www.tourismpei.com/pei-confederation-trail">Tourism P.E.I.</a></p>
-                            <table class="table">
-                                <tr>
-                                    <td><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></td>
-                                    <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                    <img src="lib/images/tct-hike-icon-small.png" alt="hike" >
-                                    <img src="lib/images/tct-bike-icon.png" alt="hike" >
-                                    <img src="lib/images/tct-ski-icon.png" alt="ski">
-                                    </td>
-                                </tr>
-                            </table>
+                        <p>Maintained by 
+                        <a href="http://www.tourismpei.com/pei-confederation-trail">Tourism P.E.I.</a></p>
+
                         </td>
                       </tr>
-                  </table>
-                </div>
-            </div>
-          </div>
-          <div class="panel panel-warning" style="max-height:300px">
+                  </table> <!-- table -->
+             </div> <!-- panel body -->
+          </div> <!-- panel warning -->
+          <div class="panel panel-warning tct">
             <div class="panel-heading">
-              <h3 class="panel-title">Lake Superior Water Trail</h3>
-            </div>
+              <h3 class="panel-title">Lake Superior Water Trail
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></h3>
+            </div> <!-- panel heading -->
             <div class="panel-body">
-                <div class="col-md-6">
                   <table class="table">
                       <tr>
-                        <td><img src="lib/images/lake-sup-trail.png" width="175" height="175" alt="PEI" ></td>
-                        <td>In 2013, we mapped the 1,000km Trans Canada Lake Superior Water Trail.
-                        <p>Maintained by <a href="http://www.themcguffins.ca/lake-superior-water-trail/">the Lake Superior 
-                        Watershed Conservancy</a><p>
-                            <table class="table">
-                                <tr>
-                                    <td><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></td>
-                                    <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                    <img src="lib/images/tct-canoe-icon-small.png" alt="canoe">
-                                    </td>
-                                </tr>
-                            </table>
+                        <td><img src="lib/images/lake-sup-trail.png"  width="175" height="175" alt="Lake"><br/>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                             <img src="lib/images/share-text-icon.svg" alt="share" >
+                        </button>
+                         </td>
+                        <td class="tct-desc">In 2013, we mapped the 1,000km Trans Canada Lake 
+                        Superior Water Trail.
+                        <p>Maintained by <a href="http://www.themcguffins.ca/lake-superior-water-trail/">
+                        the Lake Superior Watershed Conservancy</a></p>
                         </td>
                       </tr>
-                  </table>
-                </div>
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-warning" style="max-height:300px">
-            <div class="panel-heading">
-              <h3 class="panel-title">Parc de la Gatineau</h3>
-            </div>
-            <div class="panel-body">
-                <div class="col-md-6">
-                  <table class="table">
-                      <tr>
-                        <td><img src="lib/images/pei-trail1.png"  width="175" height="175" alt="PEI 1" ></td>
-                        <td>Enjoy classic cross-country skiing and skate skiing in a beautiful conservation area, 
-                        located just minutes from downtown Ottawa.
-                            <table class="table">
-                                <tr>
-                                    <td><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></td>
-                                    <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                    <img src="lib/images/tct-hike-icon-small.png" alt="hike" >
-                                    <img src="lib/images/tct-bike-icon.png" alt="hike" >
-                                    <img src="lib/images/tct-ski-icon.png" alt="ski">
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                      </tr>
-                  </table>
-                </div>
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-      </div>
+                  </table> <!-- table -->
+             </div> <!-- panel body -->
+          </div> <!-- panel warning -->
+        </div> <!-- div col layout -->
+      </div>  <!-- row -->
+
     
 <!-- NAVBAR bottom -->
 

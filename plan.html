@@ -24,7 +24,7 @@ limitations under the License.
     <meta name="author" content="">
     
     <!-- icon -->
-    <link rel="icon" href="lib/bootstrap/favicon.ico">
+    <link rel="icon" href="lib/images/favicon.ico">
 
     <title>Trans-Canada Demo App</title>
 
@@ -37,61 +37,67 @@ limitations under the License.
     <!--     <link href="lib/met/css/theme.css" rel="stylesheet"> -->
     <!--     <link href="lib/met/css/met.css" rel="stylesheet"> -->
 
+    <!-- TCT PROTOTYPE CSS -->
+    <link href="lib/css/tctprototype.css" rel="stylesheet">
+
   </head>
 
-  <body role="document" style="background-color:#4CCDCB">
+  <body role="document">
 
-
-    <!-- Fixed navbar TODO text color of menu items and home background color (orange)-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container" style="background-color:Teal">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"  style="border:none">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"  style="color:white"><b>Trans-Canada Trail Explorer</b> </a>
+          <a class="navbar-brand" href="index.html">
+          <img class="col-xs-2 col-sm-2 col-md-2" src="lib/images/maple-leaf-small.svg">
+          Trans-Canada Trail Explorer</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active" style="background-color:gray"><a href="index.html" 
-            style="background-color:gray">Home</a></li>
+            <li class="active"><a href="index.html" >Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Your Canadian Journey<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="discover.html" style="color:white">Discover</a></li>
-                <li><a href="plan.html" style="color:white">Plan trip</a></li>
-                <li><a href="favourites.html" style="color:white">Favourites</a></li>
-                <li><a href="achievements.html" style="color:white">Achievements<span class="badge">2</span></a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="plan.html">Plan trip</a></li>
+                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="achievements.html">Achievements<span class="badge">2</span></a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Be a Trail Blazer<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="events.html" style="color:white">Events<span class="badge">42</span></a></li>
-                <li><a href="alerts.html" style="color:white">Alerts<span class="badge">2</span></a></li>
-                <li><a href="contribute.html" style="color:white">Contribute</a></li>
+                <li><a href="events.html">Events<span class="badge">42</span></a></li>
+                <li><a href="alerts.html">Alerts<span class="badge">2</span></a></li>
+                <li><a href="contribute.html">Contribute</a></li>
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><!-- /.nav-collapse -->
       </div>
     </nav>
-    
 
-<!-- Clickable image of screen -->
-    <div class="container-fluid">
-    <a href="trail-detail.html" target="_blank">
-        <img src="lib/images/plan-gatineau-small.png" class="img-responsive center-block" 
-        style="width:90%; heigth:90%" alt="search Gatineau map">
-        </a>
+
+
+<!-- Image of screen -->
+    <div class="container-fluid col-xs-12 col-sm-12 col-md-12 center-block" style="margin-top:-1em">
+        <object data="lib/images/gatineau-plan.svg" type="image/svg+xml" 
+        style="width:95%; height:95%"></object>
     </div>
-    
-    
+     
+   
+
 <!-- NAVBAR bottom -->
 
 <nav class="navbar navbar-default navbar-fixed-bottom">

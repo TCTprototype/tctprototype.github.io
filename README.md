@@ -1,1 +1,0 @@
-# trail-explorer-app

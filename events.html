@@ -24,7 +24,7 @@ limitations under the License.
     <meta name="author" content="">
     
     <!-- icon -->
-    <link rel="icon" href="lib/bootstrap/favicon.ico">
+    <link rel="icon" href="lib/images/favicon.ico">
 
     <title>Trans-Canada Demo App</title>
 
@@ -37,44 +37,50 @@ limitations under the License.
     <!--     <link href="lib/met/css/theme.css" rel="stylesheet"> -->
     <!--     <link href="lib/met/css/met.css" rel="stylesheet"> -->
 
+    <!-- TCT PROTOTYPE CSS -->
+    <link href="lib/css/tctprototype.css" rel="stylesheet">
+
   </head>
 
-  <body role="document">
+  <body role="document" class="tct-page">
 
-
-    <!-- Fixed navbar TODO text color of menu items and home background color (orange)-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container" style="background-color:Teal">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"  style="border:none">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"  style="color:white"><b>Trans-Canada Trail Explorer</b> </a>
+          <a class="navbar-brand" href="index.html">
+          <img class="col-xs-2 col-sm-2 col-md-2" src="lib/images/maple-leaf-small.svg">
+          Trans-Canada Trail Explorer</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active" style="background-color:gray"><a href="index.html" 
-            style="background-color:gray">Home</a></li>
+            <li class="active"><a href="index.html" >Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Your Canadian Journey<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="discover.html" style="color:white">Discover</a></li>
-                <li><a href="plan.html" style="color:white">Plan trip</a></li>
-                <li><a href="favourites.html" style="color:white">Favourites</a></li>
-                <li><a href="achievements.html" style="color:white">Achievements<span class="badge">2</span></a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="plan.html">Plan trip</a></li>
+                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="achievements.html">Achievements<span class="badge">2</span></a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">
               Be a Trail Blazer<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="events.html" style="color:white">Events<span class="badge">42</span></a></li>
-                <li><a href="alerts.html" style="color:white">Alerts<span class="badge">2</span></a></li>
-                <li><a href="contribute.html" style="color:white">Contribute</a></li>
+                <li><a href="events.html">Events<span class="badge">42</span></a></li>
+                <li><a href="alerts.html">Alerts<span class="badge">2</span></a></li>
+                <li><a href="contribute.html">Contribute</a></li>
               </ul>
             </li>
           </ul>
@@ -84,36 +90,38 @@ limitations under the License.
 
 
 <!-- TITLE -->
-
-<!-- TITLE -->
-       <div class="row">
-          <div class="col-xs-3"></div>
-           <div class="col-xs-6"><h3>Events</h3></div>
-          <div class="col-xs-3"></div>      
+       <div class="row container tct">
+          <div class="col-xs-3 col-sm-3 col-md-3"></div>
+           <div class="col-xs-6 col-sm-6 col-md-6"><h3 class="tct">Events</h3></div>
+          <div class="col-xs-3 col-sm-3 col-md-3"></div>      
         </div>
 
 <!-- SEARCH OPTIONS -->
 
     
     <div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search by<span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Trail Connection</a></li>
-          <li><a href="#">Trail Maintenance</a></li>
-          <li><a href="#">BBQ</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-      <input type="text" class="form-control" aria-label="..." placeholder="Search for...">
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Search by<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Trail Connection</a></li>
+              <li><a href="#">Trail Maintenance</a></li>
+              <li><a href="#">Social</a></li>
+            </ul>
+          </div><!-- /btn-group -->
+          <input type="text" class="form-control" aria-label="..." placeholder="Search for...">
+        </div><!-- /input-group -->
+      </div><!-- / col width -->
+    </div><!-- / row -->
+
 
 <p/>
 
 <!-- TABLE OF EVENTS -->
+
        <div class="row">
           <div class="col-xs-4"></div>
            <div class="col-xs-4"><button type="button" class="btn btn-sm btn-warning">
@@ -122,55 +130,45 @@ limitations under the License.
         </div>
         <br/>
       <div class="row">
-        <div class="col-sm-4">
-             <div class="col-md-6">
-              <table class="table">
-                  <tr>
-                    <td><img src="lib/images/fireworks-icon.png" alt="PEI 1" ></td>
-                    <td><b>Trail Connection</b><br/>We will be connecting La Pêche to Chelsea trail sections. 
-                    Location: Gatineau Trail, Quebec<br/>When: Sunday, July 1st 2016<br/>
-                    Contact: Jean-François@SentierOutaouais.org<br/> Distance from me: 3 km
-                        <table class="table">
-                            <tr>
-                                <td>
-                                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></td>
-                                <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                            </tr>
-                        </table>
-                    </td>
-                  </tr>
-                   <tr>
-                    <td><img src="lib/images/maintenance-work.svg" width="100" height="100"></td>
-                    <td><b>Maintenance</b><br/>Trail clean up after storm.
-                    Location: Confederation Trail, Prince-Edward Island<br/>When: Saturday, April 17th 2016<br/>
-                    Contact: Bob@confederation.org<br/> Distance from me: 2000 km
-                        <table class="table">
-                            <tr>
-                                <td>
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></td>
-                                <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                            </tr>
-                        </table>
-                    </td>
-                  </tr>
-                   <tr>
-                    <td><img src="lib/images/bbq-icon.jpg" width="100" height="100"></td>
-                    <td><b>Wild Rose BBQ</b><br/>Annual BBQ at junction of TCT and Wild Rose Trail
-                    Location: Confederation Trail, Prince-Edward Island<br/>When: Saturday, August 6th 2016<br/>
-                    Contact: Alan@trailnet.com<br/> Distance from me: 4000 km
-                        <table class="table">
-                            <tr>
-                                <td>
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></td>
-                                <td><img src="lib/images/social-media-icons.png" alt="social" ></td>
-                            </tr>
-                        </table>
-                    </td>
-                  </tr>
-             </table>
-            </div>
-        </div> 
-      </div>
+      
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="lib/images/maintenance-work.svg" width="90" height="90"><br/>
+            </div><!-- image -->
+            
+            <div class="col-xs-9 col-sm-9 col-md-9">
+                <p class="lead">Maintenance&nbsp;&nbsp; 
+                <img src="lib/images/share-icon.svg" alt="share"> </p>
+                <span class="label label-info tct-desc">Volunteers needed!</span>
+                 <p class="tct-desc">Trail clean up after storm. 
+                    <br/>Location: Confederation Trail, Prince-Edward Island
+                    <br/>When: Saturday, April 17th 2016
+                    <br/>Contact: Bob@confederation.org
+                    <br/>Distance from your location: 2000 km</p>
+            </div><!-- event -->
+    
+            <div class="row center-block tct" col-xs-12 col-sm-12 col-md-12">
+                <hr/>
+            </div><!-- end row -->
+
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="lib/images/fireworks-blue.svg" width="90" height="90"><br/>
+            </div><!-- image -->
+        
+            <div class="col-xs-9 col-sm-9 col-md-9">
+                <p class="lead">Trail Connection&nbsp;&nbsp; 
+                <img src="lib/images/share-icon.svg" alt="share"> </p>
+                 <p class="tct-desc">We will be connecting La Pêche to Chelsea trail sections. 
+                    <br/>Location: Gatineau Trail, Quebec
+                    <br/>When: Sunday, July 1st 2016
+                    <br/>Contact: Jean-François@SentierOutaouais.org
+                    <br/>Distance from your location: 3 km</p>
+            </div><!-- event -->
+
+        </div><!-- div 12 col -->
+      </div>  <!-- row -->
     
     <!-- Fixed navbar at bottom -->
 <!-- NAVBAR bottom -->

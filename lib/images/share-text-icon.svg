@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="0.57268929in"
+   height="0.1914712in"
+   viewBox="0 0 6.9268129 1.6374979"
+   id="svg3394"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="share-text-icon.svg">
+  <defs
+     id="defs3396" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.561646"
+     inkscape:cx="24.387134"
+     inkscape:cy="8.6594515"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1408"
+     inkscape:window-height="897"
+     inkscape:window-x="60"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="in" />
+  <metadata
+     id="metadata3399">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.3939191,4.046476)">
+    <g
+       id="g3346"
+       transform="matrix(0.02048273,0,0,0.0190295,7.3123769,-4.1589949)">
+      <path
+         id="path15"
+         d="m 76.381021,71.798669 c -4,0 -7.7,1.2 -10.8,3.3 l -24.7,-19.5 c 0.8,-2.1 1.2,-4.4 1.2,-6.7 0,-2.4 -0.5,-4.8 -1.3,-6.9 l 24.4,-19.6 c 3.1,2.3 7,3.6 11.2,3.6 10.5,0 19,-8.5 19,-18.9999991 0,-10.5 -8.5,-19.0000009 -19,-19.0000009 -10.5,0 -19,8.5000009 -19,19.0000009 0,2.2 0.4,4.2999991 1,6.1999991 l -24.8,19.9 c -3,-2 -6.7,-3.2 -10.6,-3.2 -10.5,0 -19.0000004,8.5 -19.0000004,19 0,10.5 8.5000004,19 19.0000004,19 4,0 7.7,-1.2 10.8,-3.3 l 24.7,19.4 c -0.8,2.1 -1.2,4.4 -1.2,6.7 0,10.499991 8.5,18.999971 19,18.999971 10.5,0 19,-8.49998 19,-18.999971 0.2,-10.4 -8.4,-18.9 -18.9,-18.9 z"
+         class="st2"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="scale(0.76920379,1.3000456)"
+         sodipodi:linespacing="125%"
+         id="text3342"
+         y="67.093414"
+         x="144.48029"
+         style="font-style:normal;font-weight:normal;font-size:90.04553223px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="67.093414"
+           x="144.48029"
+           id="tspan3344"
+           sodipodi:role="line">SHARE</tspan></text>
+    </g>
+  </g>
+</svg>

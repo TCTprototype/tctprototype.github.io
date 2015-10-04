@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 100 100"
+   id="svg3386"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tctprototype-logo-white.svg">
+  <defs
+     id="defs3388" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="933.1558"
+     inkscape:cy="672.16722"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1458"
+     inkscape:window-height="814"
+     inkscape:window-x="55"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3391">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3420"
+       transform="matrix(0.18031162,0,0,0.18013601,-16.290403,-70.43758)">
+      <circle
+         id="circle3422"
+         r="243"
+         cy="607.40002"
+         cx="375"
+         class="st9"
+         style="fill:#ffffff;stroke:#33cccc;stroke-width:5;stroke-miterlimit:10" />
+      <text
+         id="text3424"
+         class="st1 st4 st11"
+         transform="translate(249.258,554.2825)"
+         style="font-size:90px;font-family:CenturyGothic-Bold;fill:#33cccc">Ca</text>
+      <text
+         id="text3426"
+         class="st1 st4 st11"
+         transform="translate(379.2328,651.7774)"
+         style="font-size:90px;font-family:CenturyGothic-Bold;fill:#33cccc">na</text>
+      <text
+         id="text3428"
+         class="st1 st4 st11"
+         transform="translate(309.4517,751.4158)"
+         style="font-size:90px;font-family:CenturyGothic-Bold;fill:#33cccc">da</text>
+      <g
+         id="g3430">
+        <g
+           id="g3432">
+          <path
+             id="path3434"
+             d="m 383.7,532.3 c 18.3,-0.4 36.5,-1.2 54.8,-2.4 17.1,-1.1 34.2,-3.5 51.4,-3.6 14.9,-0.1 29.5,3.5 38.1,16.6 8,12.1 10.6,28.1 8.6,42.4 -2.3,16.2 -12.5,31.3 -29.1,35 -7.5,1.7 -4.3,13.3 3.2,11.6 36.1,-8.1 45.3,-52.6 33.7,-83 -5.9,-15.5 -17.2,-27.7 -33.4,-32.2 -18,-4.9 -37.4,-1.3 -55.7,0.1 -23.8,1.8 -47.6,2.9 -71.4,3.5 -8,0.2 -8,12.2 -0.2,12 l 0,0 z"
+             class="st1"
+             inkscape:connector-curvature="0"
+             style="fill:#33cccc" />
+        </g>
+      </g>
+      <g
+         id="g3436">
+        <g
+           id="g3438">
+          <path
+             id="path3440"
+             d="m 369,618.1 c -18.8,0.5 -37.6,-3.2 -56.4,-1.5 -16.2,1.4 -31,7 -43.3,17.7 -21.6,18.7 -34.6,55.8 -15.9,80.9 10.9,14.7 29.7,18.7 47,19.1 7.7,0.2 7.7,-11.8 0,-12 -12.5,-0.3 -26.8,-2.3 -35.7,-12.1 -8.7,-9.6 -9.5,-24.4 -6.4,-36.4 6.6,-26 29.7,-43.5 56.1,-45.3 18.2,-1.2 36.4,2.1 54.6,1.7 7.7,-0.3 7.7,-12.3 0,-12.1 l 0,0 z"
+             class="st1"
+             inkscape:connector-curvature="0"
+             style="fill:#33cccc" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
