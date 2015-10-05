@@ -54,6 +54,7 @@ div #magnifier {
 div.splash {
 
  background-color:#88BB88; 
+ opacity:0.85;
  min-height:300px;
  
 }
